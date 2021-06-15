@@ -1,0 +1,1026 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F19176 ]
+[d frameptr 6 ]
+"63 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X/include/vl6180x_api.h
+[e E11198 VL6180X_RangeError `uc
+NO_ERROR 0
+VCSEL_CONTINUITY_TEST 1
+VCSEL_WATCHDOG_TEST 2
+VCSEL_WATCHDOG 3
+PLL1_LOCK 4
+PLL2_LOCK 5
+EARLY_CONVERGENCE_ESTIMATE 6
+MAX_CONVERGENCE 7
+NO_TARGET_IGNORE 8
+NOT_USED1 9
+NOT_USED2 10
+MAX_SIGNAL_TO_NOISE_RATIO 11
+RAW_RAMGING_ALGO_UNDERFLOW 12
+RAW_RANGING_ALGO_OVERFLOW 13
+RANGING_ALGO_UNDERFLOW 14
+RANGING_ALGO_OVERFLOW 15
+]
+[e E11198 VL6180X_RangeError `uc
+NO_ERROR 0
+VCSEL_CONTINUITY_TEST 1
+VCSEL_WATCHDOG_TEST 2
+VCSEL_WATCHDOG 3
+PLL1_LOCK 4
+PLL2_LOCK 5
+EARLY_CONVERGENCE_ESTIMATE 6
+MAX_CONVERGENCE 7
+NO_TARGET_IGNORE 8
+NOT_USED1 9
+NOT_USED2 10
+MAX_SIGNAL_TO_NOISE_RATIO 11
+RAW_RAMGING_ALGO_UNDERFLOW 12
+RAW_RANGING_ALGO_OVERFLOW 13
+RANGING_ALGO_UNDERFLOW 14
+RANGING_ALGO_OVERFLOW 15
+]
+"1 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"72 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1368
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"66 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"94
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+"99
+[v _EUSART1_is_rx_ready EUSART1_is_rx_ready `(a  1 e 1 0 ]
+"113
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"52 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"77
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"87 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"50 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/i2c1_master_simple.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"65
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 e 1 0 ]
+"76
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 e 1 0 ]
+"82
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 e 1 0 ]
+"87
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 e 1 0 ]
+"102
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 e 1 0 ]
+"107
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 e 1 0 ]
+"112
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 e 1 0 ]
+"117
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 e 1 0 ]
+"128
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 e 1 0 ]
+"140
+[v _I2C1_MasterIsRxBufFull I2C1_MasterIsRxBufFull `T(a  1 e 1 0 ]
+"160
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 e 1 0 ]
+"170
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 e 1 0 ]
+"49 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/main.c
+[v _SetA6 SetA6 `(v  1 e 1 0 ]
+"53
+[v _ResetA6 ResetA6 `(v  1 e 1 0 ]
+"57
+[v _SetA7 SetA7 `(v  1 e 1 0 ]
+"61
+[v _ResetA7 ResetA7 `(v  1 e 1 0 ]
+"66
+[v _SetB0 SetB0 `(v  1 e 1 0 ]
+"70
+[v _ResetB0 ResetB0 `(v  1 e 1 0 ]
+"75
+[v _SetB1 SetB1 `(v  1 e 1 0 ]
+"79
+[v _ResetB1 ResetB1 `(v  1 e 1 0 ]
+"86
+[v _main main `(v  1 e 1 0 ]
+"20 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/vl6180x_api.c
+[v _VL6180X_WriteRegister VL6180X_WriteRegister `(a  1 e 1 0 ]
+"111
+[v _VL6180X_ReadRegister VL6180X_ReadRegister `(uc  1 e 1 0 ]
+"226
+[v _VL6180X_SetupRegisters VL6180X_SetupRegisters `(v  1 e 1 0 ]
+"484
+[v _VL6180X_MeasureRange VL6180X_MeasureRange `(v  1 e 1 0 ]
+"529
+[v _VL6180X_SetChipEnable VL6180X_SetChipEnable `T(v  1 e 1 0 ]
+"537
+[v _VL6180X_Reset VL6180X_Reset `T(v  1 e 1 0 ]
+"556
+[v _VL6180X_IdentifyDevices VL6180X_IdentifyDevices `(uc  1 e 1 0 ]
+[s S194 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"426 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f19176.h
+[u S199 . 1 `S194 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES199  1 e 1 @11 ]
+"727
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"784
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"846
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"903
+[v _TRISD TRISD `VEuc  1 e 1 @21 ]
+"965
+[v _TRISE TRISE `VEuc  1 e 1 @22 ]
+"997
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+[s S1004 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"1014
+[u S1013 . 1 `S1004 1 . 1 0 ]
+[v _LATAbits LATAbits `VES1013  1 e 1 @24 ]
+"1054
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+[s S1025 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1071
+[u S1034 . 1 `S1025 1 . 1 0 ]
+[v _LATBbits LATBbits `VES1034  1 e 1 @25 ]
+"1116
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+"1173
+[v _LATD LATD `VEuc  1 e 1 @27 ]
+"1235
+[v _LATE LATE `VEuc  1 e 1 @28 ]
+"5174
+[v _RC1REG RC1REG `VEuc  1 e 1 @281 ]
+"5228
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"5289
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"5359
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+"5413
+[v _RC1STA RC1STA `VEuc  1 e 1 @285 ]
+[s S108 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"5439
+[u S117 . 1 `S108 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES117  1 e 1 @285 ]
+"5593
+[v _TX1STA TX1STA `VEuc  1 e 1 @286 ]
+[s S87 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5619
+[u S96 . 1 `S87 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES96  1 e 1 @286 ]
+"5773
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @287 ]
+"6019
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @396 ]
+"6039
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @397 ]
+"6229
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @399 ]
+[s S475 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"6338
+[s S484 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S489 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S494 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S499 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S504 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S510 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S519 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S525 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 I2C_START1 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S531 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ1 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS1 1 0 :1:5 
+]
+[s S537 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A1 1 0 :1:5 
+]
+[s S542 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA1 1 0 :1:5 
+]
+[s S547 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT1 1 0 :1:5 
+]
+[s S552 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S557 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS1 1 0 :1:5 
+]
+[u S562 . 1 `S475 1 . 1 0 `S484 1 . 1 0 `S489 1 . 1 0 `S494 1 . 1 0 `S499 1 . 1 0 `S504 1 . 1 0 `S510 1 . 1 0 `S519 1 . 1 0 `S525 1 . 1 0 `S531 1 . 1 0 `S537 1 . 1 0 `S542 1 . 1 0 `S547 1 . 1 0 `S552 1 . 1 0 `S557 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES562  1 e 1 @399 ]
+"6593
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @400 ]
+[s S339 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"6623
+[s S345 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S350 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S359 . 1 `S339 1 . 1 0 `S345 1 . 1 0 `S350 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES359  1 e 1 @400 ]
+"6713
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @401 ]
+[s S387 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"6760
+[s S396 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S399 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S406 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S415 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S422 . 1 `S387 1 . 1 0 `S396 1 . 1 0 `S399 1 . 1 0 `S406 1 . 1 0 `S415 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES422  1 e 1 @401 ]
+[s S68 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"13372
+[u S76 . 1 `S68 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES76  1 e 1 @1807 ]
+[s S207 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"13711
+[u S215 . 1 `S207 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES215  1 e 1 @1817 ]
+"13929
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"13975
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"14014
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"14065
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"14103
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"14143
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"15195
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"15335
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"15375
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @2192 ]
+"15432
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"15483
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"15541
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"15581
+[v _ACTCON ACTCON `VEuc  1 e 1 @2196 ]
+"26646
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @7877 ]
+"26698
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @7878 ]
+"26802
+[v _RX1PPS RX1PPS `VEuc  1 e 1 @7883 ]
+"27810
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @7968 ]
+"27910
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @7970 ]
+"27960
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @7971 ]
+"28710
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"28767
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"28829
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"28886
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"28943
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"29191
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"29253
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"29315
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"29377
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"29439
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"29687
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"29744
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"29801
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"29858
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"29915
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"30143
+[v _ANSELD ANSELD `VEuc  1 e 1 @8025 ]
+"30205
+[v _WPUD WPUD `VEuc  1 e 1 @8026 ]
+"30267
+[v _ODCOND ODCOND `VEuc  1 e 1 @8027 ]
+"30329
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @8028 ]
+"30391
+[v _INLVLD INLVLD `VEuc  1 e 1 @8029 ]
+"30453
+[v _ANSELE ANSELE `VEuc  1 e 1 @8036 ]
+"30485
+[v _WPUE WPUE `VEuc  1 e 1 @8037 ]
+"30523
+[v _ODCONE ODCONE `VEuc  1 e 1 @8038 ]
+"30549
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @8039 ]
+"30581
+[v _INLVLE INLVLE `VEuc  1 e 1 @8040 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+[s S22 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/eusart1.c
+[u S27 . 1 `S22 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES27  1 e 1 0 ]
+"58
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"34 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X/include/vl6180x_api.h
+[v _NumChipEnable NumChipEnable `uc  1 e 1 0 ]
+"35
+[v _RecognizedDevices RecognizedDevices `uc  1 e 1 0 ]
+[s S744 VL6180X_Devices_t 3 `uc 1 bus_id 1 0 `uc 1 address 1 1 `uc 1 last_range_mm 1 2 ]
+"40
+[v _VL6180X_Devices VL6180X_Devices `[10]S744  1 e 30 0 ]
+"43
+[v _VL6180X_MD_EnableFunction VL6180X_MD_EnableFunction `[10]*.37(v  1 e 20 0 ]
+"44
+[v _VL6180X_MD_DisableFunction VL6180X_MD_DisableFunction `[10]*.37(v  1 e 20 0 ]
+"104 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X/include/i2c1_master_simple.h
+[v _MSSP1_InterruptHandler MSSP1_InterruptHandler `*.37(v  1 e 2 0 ]
+"86 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"163
+[v main@k_1113 k `uc  1 a 1 25 ]
+"135
+[v main@error_code error_code `[10]uc  1 a 10 14 ]
+"134
+[v main@measure measure `[10]uc  1 a 10 4 ]
+"131
+[v main@rxData rxData `VEuc  1 a 1 26 ]
+"121
+[v main@k k `uc  1 a 1 24 ]
+"230
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 79 ]
+"5
+[v printf@fmt fmt `*.25DCuc  1 p 2 70 ]
+"13
+} 0
+"1368 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S1273 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S1273  1 a 1 wreg ]
+"1371
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 68 ]
+"1368
+[v vfprintf@fp fp `*.1S1273  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 62 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 64 ]
+"1373
+"1368
+[v vfprintf@fp fp `*.1S1273  1 a 1 67 ]
+"1382
+} 0
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+[s S1273 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S1273  1 a 1 wreg ]
+"674
+[v vfpfcnvrt@ll ll `o  1 a 8 53 ]
+"670
+[v vfpfcnvrt@fp fp `*.1S1273  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 46 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 47 ]
+"680
+"670
+[v vfpfcnvrt@fp fp `*.1S1273  1 a 1 61 ]
+"1365
+} 0
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+[s S1273 _IO_FILE 0 ]
+[v dtoa@fp fp `*.1S1273  1 a 1 wreg ]
+"277
+[v dtoa@n n `o  1 a 8 36 ]
+"276
+[v dtoa@i i `i  1 a 2 44 ]
+[v dtoa@s s `i  1 a 2 34 ]
+[v dtoa@w w `i  1 a 2 32 ]
+[v dtoa@p p `i  1 a 2 29 ]
+"274
+[v dtoa@fp fp `*.1S1273  1 a 1 wreg ]
+[v dtoa@d d `o  1 p 8 16 ]
+"280
+"274
+[v dtoa@fp fp `*.1S1273  1 a 1 31 ]
+"315
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+[s S1273 _IO_FILE 0 ]
+[v pad@fp fp `*.1S1273  1 a 1 wreg ]
+"74
+[v pad@w w `i  1 a 2 10 ]
+[v pad@i i `i  1 a 2 8 ]
+"72
+[v pad@fp fp `*.1S1273  1 a 1 wreg ]
+[v pad@buf buf `*.5uc  1 p 1 4 ]
+[v pad@p p `i  1 p 2 5 ]
+"77
+"72
+[v pad@fp fp `*.1S1273  1 a 1 12 ]
+"95
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.5DCuc  1 a 1 wreg ]
+"7
+[v strlen@a a `*.5DCuc  1 a 1 3 ]
+"5
+[v strlen@s s `*.5DCuc  1 a 1 wreg ]
+"7
+[v strlen@s s `*.5DCuc  1 a 1 4 ]
+"12
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 1 ]
+"10
+[v fputs@c c `uc  1 a 1 0 ]
+"8
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+[s S1619 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputs@fp fp `*.1S1619  1 p 1 10 ]
+"13
+[v fputs@s s `*.5DCuc  1 a 1 3 ]
+"19
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 2 ]
+[s S1619 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputc@fp fp `*.1S1619  1 p 1 4 ]
+"21
+} 0
+"146 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/eusart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 1 ]
+"149
+} 0
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
+"1 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 3 ]
+"4
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 2 ]
+[v ___aomod@counter counter `uc  1 a 1 1 ]
+"7
+[v ___aomod@divisor divisor `o  1 p 8 0 ]
+[v ___aomod@dividend dividend `o  1 p 8 8 ]
+"36
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 3 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 2 ]
+[v ___aodiv@counter counter `uc  1 a 1 1 ]
+"7
+[v ___aodiv@divisor divisor `o  1 p 8 0 ]
+[v ___aodiv@dividend dividend `o  1 p 8 8 ]
+"43
+} 0
+"226 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/vl6180x_api.c
+[v _VL6180X_SetupRegisters VL6180X_SetupRegisters `(v  1 e 1 0 ]
+{
+[v VL6180X_SetupRegisters@DeviceNumber DeviceNumber `uc  1 a 1 wreg ]
+"228
+[v VL6180X_SetupRegisters@device_address device_address `uc  1 a 1 2 ]
+"226
+[v VL6180X_SetupRegisters@DeviceNumber DeviceNumber `uc  1 a 1 wreg ]
+"228
+[v VL6180X_SetupRegisters@DeviceNumber DeviceNumber `uc  1 a 1 1 ]
+"482
+} 0
+"484
+[v _VL6180X_MeasureRange VL6180X_MeasureRange `(v  1 e 1 0 ]
+{
+[v VL6180X_MeasureRange@NumDeviceToRead NumDeviceToRead `uc  1 a 1 wreg ]
+"488
+[v VL6180X_MeasureRange@k k `uc  1 a 1 9 ]
+"486
+[v VL6180X_MeasureRange@device_address device_address `uc  1 a 1 8 ]
+"487
+[v VL6180X_MeasureRange@error error `a  1 a 1 7 ]
+"488
+[v VL6180X_MeasureRange@device_status device_status `uc  1 a 1 6 ]
+[v VL6180X_MeasureRange@mm mm `uc  1 a 1 4 ]
+[v VL6180X_MeasureRange@meas_ready meas_ready `uc  1 a 1 3 ]
+"484
+[v VL6180X_MeasureRange@NumDeviceToRead NumDeviceToRead `uc  1 a 1 wreg ]
+[v VL6180X_MeasureRange@measure measure `*.4uc  1 p 1 11 ]
+[v VL6180X_MeasureRange@status status `*.4uc  1 p 1 12 ]
+"487
+[v VL6180X_MeasureRange@NumDeviceToRead NumDeviceToRead `uc  1 a 1 5 ]
+"527
+} 0
+"556
+[v _VL6180X_IdentifyDevices VL6180X_IdentifyDevices `(uc  1 e 1 0 ]
+{
+"559
+[v VL6180X_IdentifyDevices@numDevices numDevices `uc  1 a 1 4 ]
+"561
+[v VL6180X_IdentifyDevices@error error `a  1 a 1 3 ]
+"558
+[v VL6180X_IdentifyDevices@k k `uc  1 a 1 2 ]
+"560
+[v VL6180X_IdentifyDevices@new_address new_address `uc  1 a 1 1 ]
+"558
+[v VL6180X_IdentifyDevices@model_id model_id `uc  1 a 1 0 ]
+"585
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"20 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/vl6180x_api.c
+[v _VL6180X_WriteRegister VL6180X_WriteRegister `(a  1 e 1 0 ]
+{
+[v VL6180X_WriteRegister@address address `uc  1 a 1 wreg ]
+"22
+[v VL6180X_WriteRegister@trials trials `uc  1 a 1 10 ]
+[v VL6180X_WriteRegister@addr addr `uc  1 a 1 9 ]
+[v VL6180X_WriteRegister@reg_low reg_low `uc  1 a 1 8 ]
+[v VL6180X_WriteRegister@reg_high reg_high `uc  1 a 1 7 ]
+"20
+[v VL6180X_WriteRegister@address address `uc  1 a 1 wreg ]
+[v VL6180X_WriteRegister@reg reg `us  1 p 2 1 ]
+[v VL6180X_WriteRegister@data data `uc  1 p 1 3 ]
+"22
+[v VL6180X_WriteRegister@address address `uc  1 a 1 6 ]
+"109
+} 0
+"529
+[v _VL6180X_SetChipEnable VL6180X_SetChipEnable `T(v  1 e 1 0 ]
+{
+[v VL6180X_SetChipEnable@DeviceNumber DeviceNumber `uc  1 a 1 wreg ]
+[v VL6180X_SetChipEnable@DeviceNumber DeviceNumber `uc  1 a 1 wreg ]
+"531
+[v VL6180X_SetChipEnable@DeviceNumber DeviceNumber `uc  1 a 1 3 ]
+"535
+} 0
+"537
+[v _VL6180X_Reset VL6180X_Reset `T(v  1 e 1 0 ]
+{
+[v VL6180X_Reset@DeviceNumber DeviceNumber `uc  1 a 1 wreg ]
+[v VL6180X_Reset@DeviceNumber DeviceNumber `uc  1 a 1 wreg ]
+[v VL6180X_Reset@state state `uc  1 p 1 0 ]
+"540
+[v VL6180X_Reset@DeviceNumber DeviceNumber `uc  1 a 1 1 ]
+"554
+} 0
+"66 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/main.c
+[v _SetB0 SetB0 `(v  1 e 1 0 ]
+{
+"69
+} 0
+"57
+[v _SetA7 SetA7 `(v  1 e 1 0 ]
+{
+"60
+} 0
+"49
+[v _SetA6 SetA6 `(v  1 e 1 0 ]
+{
+"52
+} 0
+"75
+[v _SetB1 SetB1 `(v  1 e 1 0 ]
+{
+"78
+} 0
+"70
+[v _ResetB0 ResetB0 `(v  1 e 1 0 ]
+{
+"73
+} 0
+"61
+[v _ResetA7 ResetA7 `(v  1 e 1 0 ]
+{
+"64
+} 0
+"53
+[v _ResetA6 ResetA6 `(v  1 e 1 0 ]
+{
+"56
+} 0
+"79
+[v _ResetB1 ResetB1 `(v  1 e 1 0 ]
+{
+"82
+} 0
+"111 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/vl6180x_api.c
+[v _VL6180X_ReadRegister VL6180X_ReadRegister `(uc  1 e 1 0 ]
+{
+[v VL6180X_ReadRegister@address address `uc  1 a 1 wreg ]
+"113
+[v VL6180X_ReadRegister@addr addr `uc  1 a 1 10 ]
+[v VL6180X_ReadRegister@trials trials `uc  1 a 1 8 ]
+[v VL6180X_ReadRegister@data data `uc  1 a 1 7 ]
+[v VL6180X_ReadRegister@reg_low reg_low `uc  1 a 1 6 ]
+[v VL6180X_ReadRegister@reg_high reg_high `uc  1 a 1 5 ]
+"111
+[v VL6180X_ReadRegister@address address `uc  1 a 1 wreg ]
+[v VL6180X_ReadRegister@reg reg `us  1 p 2 1 ]
+[v VL6180X_ReadRegister@error error `*.4a  1 p 1 3 ]
+"113
+[v VL6180X_ReadRegister@address address `uc  1 a 1 9 ]
+"224
+} 0
+"170 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/i2c1_master_simple.c
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 e 1 0 ]
+{
+"179
+} 0
+"112
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 e 1 0 ]
+{
+"115
+} 0
+"102
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 e 1 0 ]
+{
+"105
+} 0
+"107
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 e 1 0 ]
+{
+"110
+} 0
+"87
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 e 1 0 ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"89
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 0 ]
+"90
+} 0
+"128
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 e 1 0 ]
+{
+"132
+} 0
+"65
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 e 1 0 ]
+{
+"74
+} 0
+"140
+[v _I2C1_MasterIsRxBufFull I2C1_MasterIsRxBufFull `T(a  1 e 1 0 ]
+{
+"143
+} 0
+"117
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 e 1 0 ]
+{
+"120
+} 0
+"82
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 e 1 0 ]
+{
+"85
+} 0
+"76
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 e 1 0 ]
+{
+"80
+} 0
+"160
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 e 1 0 ]
+{
+"163
+} 0
+"50 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"77
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"87 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"171
+} 0
+"59 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"50 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\src/i2c1_master_simple.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"66 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"172
+} 0
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"168
+} 0
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"176
+} 0
+"94
+[v _EUSART1_is_tx_ready EUSART1_is_tx_ready `(a  1 e 1 0 ]
+{
+"97
+} 0
+"99
+[v _EUSART1_is_rx_ready EUSART1_is_rx_ready `(a  1 e 1 0 ]
+{
+"102
+} 0
+"113
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"130
+} 0
+"52 D:\Lavoro\Università\cococo_wires\202010\Design\Software\PIC_VL6180X\vl6180x_multiple_device.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"74
+} 0
